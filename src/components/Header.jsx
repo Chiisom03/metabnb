@@ -22,11 +22,17 @@ const Header = () => {
     },
   ];
   return (
-    <div className="flex">
-      <img src={logo} alt="metabnb logo" className="w-[233px] h-[33.67px]" />
-      <ul>
+    <div className=" mx-[100px] h-12 flex items-center justify-between mt-[43px]">
+      <a href="/">
+        <img
+          src={logo}
+          alt="metabnb logo"
+          className="w-[188.1px] h-[32.19px]"
+        />
+      </a>
+      <ul className="flex">
         {navLinks.map((nav) => (
-          <a key={nav.name} href={nav.link}>
+          <a key={nav.name} href={nav.link} className="mr-12">
             <li>{nav.name}</li>
           </a>
         ))}
