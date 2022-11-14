@@ -26,6 +26,7 @@ module.exports = {
         major: "#A02279",
         white: "#F5F5F5",
         metablack: "#434343",
+        metagray: "#A3A3A3",
       },
     },
   },

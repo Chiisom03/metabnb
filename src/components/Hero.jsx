@@ -11,7 +11,7 @@ const Hero = () => {
           <span className="text-major font-bold">Home</span> in{" "}
           <span className="text-major font-bold">Metaverse</span>
         </h2>
-        <p className="text-2xl">
+        <p className="text-2xl mt-12">
           we provide you access to luxury and affordable houses in the
           metaverse, get a chance to turn your imagination to reality at your
           comfort zone
