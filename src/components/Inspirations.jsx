@@ -1,5 +1,7 @@
 import React from "react";
 import NFT from "./NFT";
+import inspiro from "../assets/images/inspiro.png";
+
 
 const Inspirations = () => {
   return (
@@ -7,7 +9,7 @@ const Inspirations = () => {
       <h2 className="text-5xl font-bold mb-[43px]">
         Inspiration for your next adventure
       </h2>
-      <NFT />
+      <NFT image={inspiro} />
     </div>
   );
 };

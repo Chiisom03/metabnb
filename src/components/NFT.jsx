@@ -1,11 +1,10 @@
 import React from "react";
-import inspiro from "../assets/images/inspiro.png";
 
-const NFT = () => {
+const NFT = ({image}) => {
   return (
     <div className="rounded-[15px] border border-metablack h-[372px] w-[292px] p-4">
       <img
-        src={inspiro}
+        src={image}
         alt=""
         className="w-[260px] h-[265px] rounded-[15px] mb-4"
       />
