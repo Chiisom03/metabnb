@@ -25,6 +25,7 @@ module.exports = {
       colors: {
         major: "#A02279",
         white: "#F5F5F5",
+        metablack: "#434343",
       },
     },
   },

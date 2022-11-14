@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg from "../assets/images/hero_img.png";
+import Search from "./Search";
 
 const Hero = () => {
   return (
@@ -15,6 +16,7 @@ const Hero = () => {
           metaverse, get a chance to turn your imagination to reality at your
           comfort zone
         </p>
+        <Search />
       </div>
       <img
         src={heroImg}
