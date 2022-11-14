@@ -9,8 +9,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defalutFont.fontFamily.sans],
+        sans: [...defalutFont.fontFamily.sans],
         mono: [...defalutFont.fontFamily.mono],
+        rose: ['"Red Rose"', ...defalutFont.fontFamily.sans],
       },
       fontSize: {
         "sm-15": "0.9375rem", //15px

@@ -3,9 +3,9 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div>
+    <div className="font-rose">
       <Header />
-      <Hero/>
+      <Hero />
     </div>
   );
 }
