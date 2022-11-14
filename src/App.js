@@ -1,6 +1,7 @@
 import Brands from "./components/Brands";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Inspirations from "./components/Inspirations";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Brands />
+      <Inspirations />
     </div>
   );
 }
