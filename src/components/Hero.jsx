@@ -3,8 +3,8 @@ import heroImg from "../assets/images/hero_img.png";
 
 const Hero = () => {
   return (
-    <div className="">
-      <div>
+    <div className=" mt-[125px] h-[495px] max-w-[1221px] mx-auto flex">
+      <div className=" mr-[99px]">
         <h2 className="text-[56px]">
           Rent a <span className="text-major">Place</span> away from{" "}
           <span className="text-major">Home</span> in{" "}
