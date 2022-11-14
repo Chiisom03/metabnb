@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "../assets/images/hero_img.png";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
           comfort zone
         </p>
       </div>
-      <img src="" alt="" />
+      <img src={heroImg} alt="hero_img" className="h-[476px] w-[459px]" />
     </div>
   );
 };
