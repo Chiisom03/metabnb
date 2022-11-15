@@ -21,10 +21,12 @@ const Footer = () => {
         <p>&copy; 2022 Metabnb </p>
       </div>
       {[0, 1, 2].map((i) => (
-        <ul>
+        <ul key={i}>
           <h2 className="font-bold text-lg mb-[23px]">Community</h2>
           {["NFT", "Tokens", "Discord", "Landlords"].map((e) => (
-            <li className="mb-4">{e}</li>
+            <li key={e} className="mb-4">
+              {e}
+            </li>
           ))}
         </ul>
       ))}
