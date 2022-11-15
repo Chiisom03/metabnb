@@ -10,9 +10,9 @@ const Brands = () => {
     { name: opensea },
   ];
   return (
-    <div className="h-[70px] w-full bg-major flex justify-around py-[14.61px] mt-[67px]">
+    <div className="h-[70px] w-full bg-major flex items-center justify-around py-[14.61px] mt-[67px]">
       {brands.map((brand) => (
-        <img key={brand.name} src={brand.name} alt="mbtoken_logo" className="h-[40.9px] w-[198.32px]" />
+        <img key={brand.name} src={brand.name} alt="mbtoken_logo" className="h-[25px] w-[90px] md:h-[40.9px] md:w-[198.32px]" />
       ))}
     </div>
   );
