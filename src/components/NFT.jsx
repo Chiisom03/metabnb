@@ -1,8 +1,9 @@
 import React from "react";
+import rating from "../assets/images/rating.png"
 
 const NFT = ({image}) => {
   return (
-    <div className="rounded-[15px] border border-metablack h-[372px] w-[292px] p-4">
+    <div className="rounded-[15px] border border-metafade h-[372px] w-[292px] p-4">
       <img
         src={image}
         alt=""
@@ -16,6 +17,7 @@ const NFT = ({image}) => {
         <p>2345km away</p>
         <p>available for 2weeks stay</p>
       </div>
+      <img src={rating} alt="" className="w-[92px] h-[12] mt-[9px] mb-4" />
     </div>
   );
 };

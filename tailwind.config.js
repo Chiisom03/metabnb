@@ -27,6 +27,7 @@ module.exports = {
         white: "#F5F5F5",
         metablack: "#434343",
         metagray: "#A3A3A3",
+        metafade: "#D7D7D7",
       },
     },
   },
