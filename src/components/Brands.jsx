@@ -12,7 +12,7 @@ const Brands = () => {
   return (
     <div className="h-[70px] w-full bg-major flex justify-around py-[14.61px] mt-[67px]">
       {brands.map((brand) => (
-        <img src={brand.name} alt="mbtoken_logo" className="h-[40.9px] w-[198.32px]" />
+        <img key={brand.name} src={brand.name} alt="mbtoken_logo" className="h-[40.9px] w-[198.32px]" />
       ))}
     </div>
   );
