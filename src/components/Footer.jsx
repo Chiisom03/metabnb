@@ -6,7 +6,7 @@ import footerlogo from "../assets/svg/footerlogo.svg";
 
 const Footer = () => {
   return (
-    <footer className="h-[322px] w-full px-[113px] pt-[62.88px] pb-[37px] bg-[#1D1D1E] text-white flex justify-between items-center">
+    <footer className="md:h-[322px] h-full w-full px-8 md:px-[113px] pt-[62.88px] pb-[37px] bg-[#1D1D1E] text-white md:flex md:justify-between items-center">
       <div className="">
         <img
           src={footerlogo}
@@ -21,7 +21,7 @@ const Footer = () => {
         <p>&copy; 2022 Metabnb </p>
       </div>
       {[0, 1, 2].map((i) => (
-        <ul key={i}>
+        <ul key={i} className="mt-12 md:mt-0">
           <h2 className="font-bold text-lg mb-[23px]">Community</h2>
           {["NFT", "Tokens", "Discord", "Landlords"].map((e) => (
             <li key={e} className="mb-4">
