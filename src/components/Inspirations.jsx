@@ -10,8 +10,8 @@ const Inspirations = () => {
         Inspiration for your next adventure
       </h2>
       <div className="grid grid-cols-4 gap-6 mb-[53px]">
-        {images.map((link) => (
-          <NFT image={inspiro} />
+        {images.map((i) => (
+          <NFT key={i.link} image={inspiro} />
         ))}
       </div>
     </div>
