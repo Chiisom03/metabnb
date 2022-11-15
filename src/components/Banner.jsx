@@ -2,7 +2,7 @@ import React from "react";
 import metaNft from "../assets/images/metanft.png";
 const Banner = () => {
   return (
-    <div className="h-[744px] w-full bg-major text-white py-[100px] pl-[100px] pr-[90px] flex justify-between">
+    <div className="h-[744px] w-full bg-major text-white py-[100px] pl-[100px] pr-[90px] flex justify-between items-center">
       <div className="">
         <h2 className="font-bold text-5xl mb-[35px]">Metabnb NFTs</h2>
         <p className="text-lg mb-[57px]">
