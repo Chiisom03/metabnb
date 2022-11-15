@@ -1,3 +1,4 @@
+import Banner from "./components/Banner";
 import Brands from "./components/Brands";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Brands />
       <Inspirations />
+      <Banner />
     </div>
   );
 }
