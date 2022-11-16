@@ -5,7 +5,7 @@ import walletconnect from "../assets/images/walletconnect.png";
 const Modal = ({ showModal }) => {
   const handleShowModal = () => (showModal ? "block" : "hidden");
   const closeModal = () => {
-    return (showModal = !showModal);
+    return showModal ? !showModal : showModal;
   };
 
   return (

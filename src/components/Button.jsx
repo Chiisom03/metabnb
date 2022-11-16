@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = ({ link, btnName, showModal }) => {
   const handleShowModal = () => {
-    return showModal = !showModal;
+    return showModal ? !showModal : showModal;
   };
   return (
     <a
