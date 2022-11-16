@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/svg/logo.svg";
 import Button from "./Button";
 
-const Header = () => {
+const Header = ({showModal}) => {
   const navLinks = [
     {
       name: "Home",
@@ -38,7 +38,7 @@ const Header = () => {
           </a>
         ))}
       </ul>
-      <Button link="/wallet" btnName="Connect Wallet" />
+      <Button link="#" btnName="Connect Wallet" showModal={showModal} />
     </div>
   );
 };

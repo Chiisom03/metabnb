@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+@layer base {
     @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+    .wallet{
+        @apply outline-none py-3 px-5 border border-metagray rounded-xl flex justify-between mt-4
+    }
+    .wallet-txt{
+        @apply flex items-center font-semibold text-lg
+    }
 }
