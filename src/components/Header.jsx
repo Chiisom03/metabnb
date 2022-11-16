@@ -22,7 +22,7 @@ const Header = ({showModal}) => {
     },
   ];
   return (
-    <div className=" mx-auto w-[1000px] h-12 md:flex block items-center justify-around mt-[43px]">
+    <div className=" mx-auto max-w-[1000px] h-12 md:flex block items-center justify-around mt-[43px]">
       <a href="/">
         <img
           src={logo}
@@ -31,7 +31,7 @@ const Header = ({showModal}) => {
         />
       </a>
 
-      <ul className="md:flex block px-20 md:relative absolute bg-white p-10 md:p-0 md:bg-transparent top-0 left-0 right-0 opacity-1">
+      <ul className="md:flex block px-20 md:relative absolute bg-white p-10 md:p-0 md:bg-transparent top-0 left-0 right-0 opacity-0 md:opacity-100">
         {navLinks.map((nav) => (
           <a key={nav.name} href={nav.link} className="mr-12">
             <li className="text-2xl md:text-base">{nav.name}</li>
