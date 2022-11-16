@@ -28,6 +28,7 @@ module.exports = {
         metablack: "#434343",
         metagray: "#A3A3A3",
         metafade: "#D7D7D7",
+        modal: "#4040404d",
       },
     },
   },
